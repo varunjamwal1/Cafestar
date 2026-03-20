@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://cafestar.vercel.app/api",
+  baseURL: "https://cafestar-backend.vercel.app/api",
   timeout: 30000,
 });
 
